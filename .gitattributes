@@ -1,0 +1,12 @@
+# Documentation and Markdown
+*.md linguist-documentation=true
+*.md -linguist-language=roff
+README.md linguist-documentation=true
+README.md -linguist-language=roff
+
+# Stats images and badges
+*.svg linguist-documentation=true
+*.svg -linguist-language=roff
+
+# Default to not being roff
+* -linguist-language=roff
